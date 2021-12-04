@@ -10,16 +10,33 @@ html {
 
 body {
     background-image: url(../Assets/Webbackground.jpeg);
-    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Inter', sans-serif;
     overflow-x: hidden;
     overflow-y: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;   
 }
-.logo{
+.logo {
     float: left;
     padding: 10px;
-    height: auto;
-    width: 1px;
+    width: 30%;
+}
+.navbar{
+
+    padding:20px;
+    display: flex;
+    position: sticky;
+    justify-content: flex-end;
+    
+ 
+    
+
+}
+.nav{
+    padding-right: 5%;
+    color: white;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    z-index: 3;
 }
