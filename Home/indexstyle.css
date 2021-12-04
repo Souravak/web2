@@ -19,7 +19,6 @@ body {
 }
 .logo>img {
     float: left;
-    /* padding: 10px; */
     padding: 0.5%;
     width: 10%;
 }
@@ -39,36 +38,14 @@ body {
     color: white;
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
-    z-index: 3;
-    
+    z-index: 3; 
 }
-p.Sub-title {
-    color: rgba(255, 255, 255, 0.600);
-    display: block;
-    font-size: 1.5rem;
-    margin: 10px 0 10px 0;
-    font-weight: 500;
-    padding-bottom: 1.3em;
+.type{
+    margin-top: 4%;
 }
+.type>h1>a{
+    color:#fff; 
+    text-decoration: none;
+    padding: 30px;
 
-p.Hero-title1 {
-    color: white;
-    font-size: 4.9rem;
-    display: block;
-    margin: 0;
-    font-weight: 900;
 }
-
-p.Hero-title2 {
-    color: white;
-    font-size: 4.5rem;
-    margin-left: -15px;
-    display: block;
-}
-.test {
-    text-align: center;
-    color:#fff;
-    padding-top:10em;
-  }
-  
-  * { color:#fff; text-decoration: none;}
