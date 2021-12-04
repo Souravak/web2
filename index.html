@@ -9,10 +9,9 @@
     <script src="load.js"></script>
     <link rel="stylesheet" href="Home/indexstyle.css">
 </head>
-<body  background="Assets/W sebbackground.jpeg" id="stop-scrolling">
+<body id="stop-scrolling" onload="loaded()">
     <!-- loading -->
     <div id="preloader">
-        hello
         <!-- <span>C</span>
         <span>o</span>
         <span>d</span>
@@ -26,14 +25,23 @@
         <span>A</span>
         <span>C</span>
         <span>E</span> -->
-    </divn>
+    </div>
     
+    <script>
+        var preload = document.getElementById('preloader');
+        function loaded(){
+            preload.delay(3).fadeOut('slow');
+        }
+        
+    </script>
 </body>
 
+<!-- <script>
+    $(document).ready(function(){
+    setTimeout(function() {
+        $('#preloader').fadeOut();
+    }, 3000);
+});
+</script> -->
 
-<script>
-
-</script>
-    var loader = document.getElementById("preloader");
-</script>
 </html>

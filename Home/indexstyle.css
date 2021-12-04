@@ -9,6 +9,7 @@ html {
 }
 
 body {
+    background-image: url(../Assets/Webbackground.jpeg);
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
     overflow-y: scroll;
