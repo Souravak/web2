@@ -1,4 +1,4 @@
-$(window).on('load', function () {
-    var $spinner   = $preloader.find('.preloader');
-    $preloader.delay(350).fadeOut('slow');
-});
+var preload = document.getElementById('preloader');
+        function loaded(){
+            preload.style.display = 'none';
+        }

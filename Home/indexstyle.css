@@ -10,11 +10,16 @@ html {
 
 body {
     background-image: url(../Assets/Webbackground.jpeg);
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    
+    background-size: cover;   
+}
+.logo{
+    float: left;
+    padding: 10px;
+    height: auto;
+    width: 1px;
 }
