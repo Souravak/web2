@@ -1,3 +1,3 @@
-function mylinkfunction() {
-    window.location.href="#sec-2";
+function read_more() {
+    window.location.href="#section-2";
 }
