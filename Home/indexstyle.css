@@ -43,11 +43,7 @@ body {
     
 
 }
-.read-more{
-    margin-top: 15%;
-    margin-left: 10%;
-    align-content: center;
-}
-#section-2{
-    height: 6000px;
+
+.sub-line-1{
+    color: red;
 }
