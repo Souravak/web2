@@ -36,10 +36,6 @@ body {
     justify-content: flex-end;
 }
 
-.topnav a:hover {
-    border-bottom: 3px solid red;
-}
-
 .nav {
     padding-right: 5%;
     color: white;
@@ -102,4 +98,30 @@ body {
     to {
         font-size: 300%;
     }
+}
+
+#section-3 {
+    background-color: #fff;
+    height: 100%;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.sub-head {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sub-details {
+    padding-top: 10px;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 200%;
+    text-align: justify;
+    display: block;
+    width: 40%;
 }
