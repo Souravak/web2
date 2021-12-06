@@ -33,16 +33,17 @@ body {
     padding-top: 20px;
     display: flex;
     position: sticky;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 
 .nav {
-    padding-right: 5%;
+    /* padding-right: 5%; */
     color: white;
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
     z-index: 3;
     position: fixed;
+    /* justify-content: flex-end; */
 }
 
 .title {
@@ -106,21 +107,23 @@ body {
     /* padding-left: 100px;
     padding-top: 20px;
     padding-bottom: 20px; */
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .section-left {
-    padding: 20px 0 20px 100px;
-    background-color: #fff;
+    padding: 20px 0 20px 10%;
+    /* background-color: #fff; */
 }
 
 .section-right {
-    padding: 20px 0 0 57%;
-    background-color: rgb(219, 213, 213);
+    padding: 20px 0 20px 57%;
+    /* background-color: rgb(219, 213, 213); */
 }
 
 .sub-head {
     padding: 50px 0 0 0;
-    color: #000;
+    /* color: #000; */
+    color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 30px;
@@ -129,7 +132,8 @@ body {
 .sub-details {
     /* padding-top: 20px; */
     padding: 20px 0 50px 0;
-    color: #000;
+    /* color: #000; */
+    color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
