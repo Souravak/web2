@@ -3,47 +3,103 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
-  }
+}
+
 body {
     background-image: url(../Assets/Webbackground.jpeg);
     font-family: 'Inter', sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;   
+    background-size: cover;
 }
-.logo>img {
-    float: left;
-    padding: 0.5%;
-    width: 10%;
-}
-.navbar{
 
-    padding:20px;
+.logo {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+}
+
+.logo>img {
+    width: 12%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    padding-left: 20px;
+    padding-top: 20px;
     display: flex;
     position: sticky;
     justify-content: flex-end;
 }
-.nav{
+
+.topnav a:hover {
+    border-bottom: 3px solid red;
+}
+
+.nav {
     padding-right: 5%;
     color: white;
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
-    z-index: 3; 
+    z-index: 3;
+    position: fixed;
 }
-.type{
-    margin-top: 4%;
-    font-size: 20px;
+
+.title {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    color: ivory;
+    font-size: 500%;
 }
-.type>h1>a{
-    color:#fff; 
-    text-decoration: none;
-    padding: 30px;
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px rgb(207, 202, 202), 0 0 30px rgb(87, 84, 84), 0 0 40px rgb(43, 39, 39), 0 0 50px rgb(19, 15, 15), 0 0 60px rgb(0, 0, 0), 0 0 70px rgb(189, 0, 0);
+    }
+    to {
+        text-shadow: 0 0 20px rgb(10, 4, 4), 0 0 30px rgb(214, 212, 212), 0 0 40px rgb(14, 9, 9), 0 0 50px rgb(10, 6, 6), 0 0 60px rgb(17, 13, 13), 0 0 70px rgb(15, 2, 2), 0 0 80px rgb(17, 13, 13);
+    }
+}
+
+#sub {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 75px;
+    text-align: center;
+    margin-top: 300px;
+    height: 150px;
+    color: rgb(228, 1, 1);
+    font-family: 'Bebas Neue', cursive;
+    animation: enlarge 1s ease-in-out infinite alternate;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 1.1rem;
+    text-shadow: 2px 2px 0 rgb(0, 0, 0);
+    /* padding-right: 80%;
+    color: #fff;
     
-
+    font-family: 'Bebas Neue', cursive; 
+    line-height: 60px; 
+    letter-spacing: 1.1rem;
+    text-shadow: 2px 2px 0 #000;
+    text-align: center; */
 }
 
-.sub-line-1{
-    color: red;
+@keyframes enlarge {
+    from {
+        font-size: 10%;
+    }
+    to {
+        font-size: 300%;
+    }
 }
